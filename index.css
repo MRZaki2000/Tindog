@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------HEADER----------- */
+
+.container {
+    width: 70%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-middle {
+    width: 82px;
+}
+
+/* -------------MAIN----------- */
+
+.dogs-nest {
+    position: relative;
+    width: 97%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: gray;
+    /* background-image: url('images/dog-teddy.jpg'); */
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+}
+
+.badge {
+    height: 90px;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.dogs-data {
+    margin-top: auto; 
+    padding: 0em 0em 0.8em 0.8em;
+}
+
+.dogs-data h1 {
+    color: #F8F8F8;
+    margin-bottom: 0.3em;
+}
+
+.dogs-data h3 {
+    color: #B7B7B7;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.choice {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 0;
+}
+
+.cross-btn, .heart-btn {
+    border: none;
+    border-radius: 50%;
+    width: 4.5em;
+    height: 4.5em;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #999999;
+}
+
+.cross-btn:hover,
+.cross-btn:focus {
+    background-color: #FFE7EF;
+    box-shadow: 1px 1px 5px #E82D70;
+    cursor: pointer;
+    outline: none;
+}
+
+.heart-btn:hover,
+.heart-btn:focus {
+    background-color: #DBFFF4;
+    box-shadow: 1px 1px 5px #00D894;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
