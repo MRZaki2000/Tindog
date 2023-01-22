@@ -79,8 +79,8 @@ body {
 .cross-btn, .heart-btn {
     border: none;
     border-radius: 50%;
-    width: 4.5em;
-    height: 4.5em;
+    width: 5.5em;
+    height: 5.5em;
     background-color: #fff;
     box-shadow: 1px 1px 5px #999999;
 }
