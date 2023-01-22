@@ -54,6 +54,7 @@ body {
 .dogs-data {
     margin-top: auto; 
     padding: 0em 0em 0.8em 0.8em;
+    font-size: 2rem;
 }
 
 .dogs-data h1 {
